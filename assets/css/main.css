@@ -1,0 +1,134 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    list-style: none;
+    text-decoration: none;
+}
+input{
+    cursor: pointer;
+}
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: blue;
+}
+.bbb{
+    width: 100%;
+}
+.be{
+    cursor: pointer;
+}
+.form {
+    width: 400px;
+    padding: 50px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+    height: 500px;
+    background-color: #fff;
+    border-radius: 5px;
+}
+.toxic{
+    width: 100%;
+    margin-left: 20px;
+    margin-top: -18px;
+}
+.input_div {
+    width: 100%;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    border: none;
+    border-bottom: 1px solid black;
+
+}
+.bi{
+    cursor: pointer;
+}
+span{
+    margin-left: 50px;
+    margin-top: -50px;
+}
+.input {
+    width: 100%;
+    height: 100%;
+    padding: 0px 3px;
+    color: dodgerblue;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    font-size: 18px;
+}
+
+.bi-eye {
+    display: none;
+}
+
+.kuz {
+    padding: 0px 10px;
+    cursor: pointer;
+}
+
+.btn {
+    width: 100%;
+    height: 50px;
+    border-radius: 10px;
+    background-color: dodgerblue;
+    color: white;
+    transition: .5s;
+    font-size: 18px;
+    font-weight: 700;
+    border: 1px solid transparent;
+    cursor: pointer;
+}
+
+.chekbook {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 55px;
+}
+
+.btn:hover {
+    background-color: white;
+    color: dodgerblue;
+    border-color: dodgerblue;
+    transition: .5s;
+}
+
+.title {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: -100px;
+}
+.title1{
+    margin-left: -180px;
+    position: absolute;
+    margin-top: -320px;
+}
+
+.iconke {
+    padding: 0px 3px;
+}
+.bi {
+    font-style: 19px;
+    padding: 0 10px;
+}
+.be{
+    margin-left: -20px;
+    position: absolute;
+    margin-top: 2px;
+    font-size: 50px;
+    
+}
+.one{
+    font-size: 14px;
+}
