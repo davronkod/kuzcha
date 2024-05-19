@@ -6,9 +6,11 @@
     list-style: none;
     text-decoration: none;
 }
-input{
+
+input {
     cursor: pointer;
 }
+
 body {
     display: flex;
     align-items: center;
@@ -16,12 +18,17 @@ body {
     height: 100vh;
     background-color: blue;
 }
-.bbb{
-    width: 100%;
+
+.forgot {
+    width: 300px;
+    margin-left: 30px;
+    position: absolute;
 }
-.be{
+
+.be {
     cursor: pointer;
 }
+
 .form {
     width: 400px;
     padding: 50px;
@@ -31,15 +38,18 @@ body {
     align-items: center;
     justify-content: center;
     gap: 25px;
-    height: 500px;
+    height: 400px;
     background-color: #fff;
     border-radius: 5px;
 }
-.toxic{
+
+.toxic {
     width: 100%;
     margin-left: 20px;
     margin-top: -18px;
+    cursor: pointer;
 }
+
 .input_div {
     width: 100%;
     height: 40px;
@@ -49,13 +59,22 @@ body {
     border-bottom: 1px solid black;
 
 }
-.bi{
+
+.bbb{
+    position: absolute;
+    margin-left: -150px;
+    margin-top: -10px;
+}
+
+.bi {
     cursor: pointer;
 }
-span{
+
+span {
     margin-left: 50px;
     margin-top: -50px;
 }
+
 .input {
     width: 100%;
     height: 100%;
@@ -109,7 +128,8 @@ span{
     justify-content: space-between;
     margin-left: -100px;
 }
-.title1{
+
+.login {
     margin-left: -180px;
     position: absolute;
     margin-top: -320px;
@@ -118,17 +138,20 @@ span{
 .iconke {
     padding: 0px 3px;
 }
+
 .bi {
     font-style: 19px;
     padding: 0 10px;
 }
-.be{
+
+.be {
     margin-left: -20px;
     position: absolute;
     margin-top: 2px;
     font-size: 50px;
-    
+
 }
-.one{
+
+.one {
     font-size: 14px;
 }
